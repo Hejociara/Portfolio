@@ -1,0 +1,12 @@
+body{
+    height: 100vh;
+    background-color: #4B00FA;
+    color: #ffffff;
+}
+.titulo.destaque{
+    color: #DBD386;
+}
+.apresentacao{
+    display: flex;
+    align-items: center;
+}
