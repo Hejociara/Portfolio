@@ -1,11 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Raleway&display=swap');
+:root{
+    --cor-primaria: #000000;
+    --cor-secundaria:#48D6DB;
+    --cor-terciaria:#F6F6F6;
+    --cor--hover: #C99238; 
+
+    --fonte-primaria: 'Poppins', sans-serif;
+    --fonte-secundaria: font-family: 'Raleway', sans-serif;
+}
+
 *{
     margin: 0;
     padding: 0;
 }
 body{
-    box-sizing: border-box;
-    background-color: #00043D;
-    color: #FFFFFF;
+    background-color: var(--cor-primaria);
+    color: var(--cor-terciaria);
 }
 .cabecalho{
     padding: 2% 0% 0% 15%;
@@ -15,11 +25,12 @@ body{
     display: flex;
     gap: 80px;
 }
-.cabecalho__menu__link{
-    font-family: 'Poppins', sans-serif;
+.cabecalho_menu_link{
+    font-family: var(--fonte-primaria);
     font-size: 24px;
     font-weight: 600;
-    color: #48D6DB;
+    color: var(--cor-secundaria);
+    text-decoration: none;
 }
 
 .apresentacao{
@@ -37,17 +48,19 @@ body{
 }
 
 .apresentacao__conteudo__titulo {
+    font-family: var(--fonte-primaria);
     font-size: 36px;
-    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
 
 .titulo-destaque{
-    color: #48D6DB;
+    color: var(--cor-secundaria);
 }
 
 .apresentacao__conteudo__texto{
+    font-family: var(--fonte-primaria);
     font-size: 24px;
-    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
 
 .imagem__Hejociara{
@@ -63,7 +76,7 @@ body{
     gap: 32px;
 }
 .apresentacao__links__subtitulo{
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 400;
     font-size: 24px;
 }
@@ -71,7 +84,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 16px;
-    border: 2px solid #48D6DB;
+    border: 2px solid var(--cor-secundaria);
     width: 378px;
     text-align: center;
     border-radius: 8px;
@@ -79,11 +92,11 @@ body{
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #F6F6F6;
-    font-family: 'Poppins', sans-serif;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-primaria);
 }
 .apresentacao__links__link:hover {
-    background-color: #C99238;
+    background-color: var(--cor--hover);
     width: 400px;
     font-size: 27px;
 }
@@ -91,9 +104,9 @@ body{
 .rodape{
     padding: 24px;
     text-align: center;
-    color: #000000;
-    background-color: #48D6DB;
-    font-family: 'Poppins', sans-serif;
+    color: var(--cor-primaria);
+    background-color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
     font-size: 24px;
     font-weight: 400;
 }
