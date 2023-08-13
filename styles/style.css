@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Raleway&display=swap');
 :root{
-    --cor-primaria: #000000;
-    --cor-secundaria:#48D6DB;
+    --cor-primaria: #96B6C5;
+    --cor-secundaria:#EEE0C9;
     --cor-terciaria:#F6F6F6;
-    --cor--hover: #C99238; 
+    --cor--hover: #ADC4CE; 
 
     --fonte-primaria: 'Poppins', sans-serif;
     --fonte-secundaria: font-family: 'Raleway', sans-serif;
@@ -25,12 +25,17 @@ body{
     display: flex;
     gap: 80px;
 }
+
 .cabecalho_menu_link{
     font-family: var(--fonte-primaria);
     font-size: 24px;
     font-weight: 600;
     color: var(--cor-secundaria);
     text-decoration: none;
+}
+
+.cabecalho_menu_link:hover{
+    color: var(--cor-terciaria)
 }
 
 .apresentacao{
