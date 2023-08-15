@@ -94,7 +94,7 @@ body{
     width: 378px;
     text-align: center;
     border-radius: 8px;
-    font-size: 21.5rem;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
@@ -104,7 +104,7 @@ body{
 .apresentacao__links__link:hover {
     background-color: var(--cor--hover);
     width: 400px;
-    font-size: 27px;
+    font-size: 1.68rem;
 }
 
 .rodape{
