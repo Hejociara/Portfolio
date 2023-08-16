@@ -47,7 +47,7 @@ body{
 }
 
 .apresentacao__conteudo {
-    width: 615px;
+    width: 60%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -69,11 +69,6 @@ body{
     font-weight: 400;
 }
 
-.imagem__Hejociara{
-    width: 359px;
-    height: 689px;
-}
-
 .apresentacao__links {
     display: flex;
     flex-direction: column;
@@ -86,12 +81,12 @@ body{
     font-weight: 400;
     font-size: 1.5rem;
 }
-.apresentacao__links__link{
+.apresentacao__links__botao{
     display: flex;
     justify-content: center;
     gap: 16px;
     border: 2px solid var(--cor-secundaria);
-    width: 378px;
+    width: 60%;
     text-align: center;
     border-radius: 8px;
     font-size: 1.5rem;
@@ -105,6 +100,11 @@ body{
     background-color: var(--cor--hover);
     width: 400px;
     font-size: 1.68rem;
+}
+
+.apresentacao__imagem{
+    padding: 24px;
+    width: 60%;
 }
 
 .rodape{
