@@ -7,7 +7,7 @@
     --cor--hover: #ADC4CE; 
 
     --fonte-primaria: 'Poppins', sans-serif;
-    --fonte-secundaria: font-family: 'Raleway', sans-serif;
+    --fonte-secundaria: 'Raleway', sans-serif;
 }
 
 *{
@@ -97,10 +97,10 @@ body{
     color: var(--cor-terciaria);
     font-family: var(--fonte-primaria);
 }
-.apresentacao__links__link:hover {
+.apresentacao__links__botao:hover {
     background-color: var(--cor--hover);
     width: 400px;
-    font-size: 1.68rem;
+    font-size: 2rem;
 }
 
 .apresentacao__imagem{
